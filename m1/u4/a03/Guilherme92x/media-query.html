@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Media Query</title>
+    <style>
+        .minha-classe {
+            transition: all 1.5s;
+        }
+        /* @media cria condições */
+        @media (max-width: 768px) { 
+            .minha-classe { /*referência a classe da TAG p*/
+                color:white;
+                background-color: red;
+                font-size: 2rem;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <p class="minha-classe">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam atque harum nostrum error quos, animi repudiandae, magnam pariatur quibusdam temporibus nemo quasi ea! Sit ad, deserunt asperiores quo quos est.
+    </p>
+</body>
+</html>
